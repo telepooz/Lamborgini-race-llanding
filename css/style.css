@@ -14,6 +14,12 @@ html{
 }
 
 .container {
+    max-width: 920px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.big-container {
     max-width: 1220px;
     padding: 0 10px;
     margin: 0 auto;
@@ -64,7 +70,7 @@ body{
 }
 
 
-
+/* promo start-------------------------------------- */
 
 .promo {
     background-image: url(../img/fonheader.jpg);
@@ -114,4 +120,70 @@ body{
     margin-top: auto;
     margin-bottom: 30px;
     align-self: center;
+}
+
+/* promo end----------------------------------------------- */
+
+
+/* promo start---------------------------------------------- */
+
+
+.info{
+    margin-bottom: 100px;
+}
+.info__part {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.info__part-first{
+    display: block;
+
+}
+.info__part-second .info__text{
+    max-width: 352px;
+}
+.info__part-third{
+    padding-top: 66px;
+}
+.info__part-third .info__text{
+    max-width: 377px;
+}
+.info__title {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 32px;
+}
+.info__patr-textbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+}
+.info__text {
+    flex-basis: 440px;
+    margin-bottom: 30px;
+}
+.info__part-img {
+    object-fit: cover;
+}
+.info__content {
+    flex-basis: 415px;
+}
+.info__table {
+    flex-basis: 450px;
+    border-bottom: 1px solid #040404;
+    position: relative;
+    top: 20px;
+}
+.info__table::before{
+    content: '';
+    border-top: 1px solid #040404;
+    position: absolute;
+    width: 100%;
+    top: -20px;
+}
+
+.info__table td{
+    padding-bottom: 20px;
 }
