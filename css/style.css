@@ -187,3 +187,39 @@ body{
 .info__table td{
     padding-bottom: 20px;
 }
+
+/* info end------------------------------------------------- */
+
+
+/* track strat---------------------------------------------- */
+
+.track {
+    
+    background-image: url(../img/trackfon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.track__inner{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.track__title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 300;
+    color: #040404;
+}
+.track__text {
+    max-width: 435px;
+}
+.track__img {
+    margin: auto auto 90px auto;
+}
+
+/* track end------------------------------------------------- */
